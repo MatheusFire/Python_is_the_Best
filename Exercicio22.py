@@ -1,0 +1,5 @@
+pre=float(input('Digite o salario do seu funcionario: '))
+aum=float(input('Digite o aumento do funcionario: '))
+total= pre + (pre * aum /100)
+print('Calculando seriamente esse aumento...')
+print('O Salario do funcionario é {} e o aumento que o mesmo ira receber é de {} \n então seu salario atual é {}'.format(pre, aum, total))

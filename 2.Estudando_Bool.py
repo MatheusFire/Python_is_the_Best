@@ -1,0 +1,7 @@
+n=input('Escreve ai: ')
+print(n.isalnum())
+print(n.isalpha())
+print(n.islower())
+print(n.isnumeric())
+print(n.isupper())
+print(type(n))

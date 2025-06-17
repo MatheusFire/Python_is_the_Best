@@ -1,0 +1,5 @@
+nome=str(input('Qual seu nome?: '))
+print(nome.lower())
+print(nome.upper())
+print(len(nome) - nome.count(' '))
+print(nome.find(' '))

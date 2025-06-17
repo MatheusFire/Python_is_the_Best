@@ -1,0 +1,5 @@
+mil=str(input('Coloque um numero de 0 a 9999: '))
+print('O numero milhar é {}'.format(mil[0]))
+print('Seu numero centenario é {}'.format(mil[1]))
+print('Seu numero dezenal é {}'.format(mil[2]))
+print('E sua unidade é {}'.format(mil[3]))

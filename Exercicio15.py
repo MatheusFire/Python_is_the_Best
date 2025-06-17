@@ -1,0 +1,5 @@
+n0=str(input('Um numero de 0 a 9999: '))
+print('Unidade:',n0[3])
+print('Dezena:',n0[2])
+print('Centena:',n0[1])
+print('Milhar:',n0[0])

@@ -1,0 +1,12 @@
+frase='  Oie eu sou Matheus Henrique do Santos Silva e tenho 21 anos  '
+print(frase[:29])
+print(frase.upper())
+print(frase.strip())
+print(frase.count('o'))
+print(frase.count('Silva'))
+print(len(frase) - frase.count(' '))
+print(len(frase.strip()))
+print(frase.replace('Henrique','Conceição'))
+print(frase.replace('Henrique','Conceição').strip())
+print('Sexo' in frase)
+print(frase.split())
